@@ -1,0 +1,14 @@
+{
+  "name": "@workspace/wastewise-ai",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.ts --host 0.0.0.0",
+    "build": "vite build --config vite.config.ts",
+    "serve": "vite preview --config vite.config.ts --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "catalog:"
+  }
+}
